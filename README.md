@@ -18,30 +18,8 @@ I love **creating products and tools that solve real problems** at scale. Whethe
 
 ## 💼 Professional Journey
 
-### 🏢 Current: U.S. Site Engineering Manager at Snappy
-
-**Austin, Texas, United States** • Oct 2024 - Present • 1 yr 2 mos
-
-Leading Snappy's U.S. expansion by building the first American engineering team from the ground up. Managing the largest distributed team across US/EU locations, establishing operational procedures for accelerated product delivery, and serving as the primary technical partner for U.S. business leadership.
-
-### 🔬 Leadership Experience at Snappy
-
-#### **DevEx Team Lead** • Dec 2022 - Present • 3 yrs
-Built Developer Experience function from scratch, launched Compass metrics portal, and modernized infrastructure with 25+ shared packages and mono-repo architecture.
-
-#### **Engineering Team Lead, API & Integrations** • Sep 2023 - Nov 2024 • 1 yr 3 mos
-Architected first-ever Monetized API platform creating new revenue streams, and transformed team into fastest-growing division serving Fortune 500 clients.
-
-#### **Full Stack Engineer** • 2021 - Dec 2022 • 2 yrs
-Led TypeScript migration, scaled APIs 100x with comprehensive testing (1,000+ tests), and co-led Engineering Backend Guild elevating technical standards.
-
-### 🎯 Key Achievements & Impact
-
-- **Team Building**: Hired and mentored foundational U.S. engineering team
-- **Product Innovation**: Launched revenue-generating API platform from concept to production
-- **Infrastructure Modernization**: 25+ shared packages, mono-repo architecture, API governance
-- **Scale & Performance**: 100x API growth with enterprise-grade reliability
-- **Cross-Continental Leadership**: Managing distributed teams across US/EU timezones
+### 🏢 Current: Engineering Manager & Builder at Snappy
+With over 10+ years as a developer, I now focus on building products and teams that scale. As U.S. Site Engineering Manager, I lead distributed engineering teams across US/EU timezones, drive product innovation, and establish scalable infrastructure that supports rapid growth.
 
 ---
 
