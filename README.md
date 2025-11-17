@@ -50,31 +50,31 @@ mindmap
       React
       Express
       NestJS
-    Tools
+    Backend
+      Kafka
+      Redis
+      Serverless
+    DevEx
       ESLint
-      Nx
-      Vitest
+      Packages
+      CLIs
     Cloud
       AWS
       Docker
       Kubernetes
-    Leadership
-      Team Leading
-      Mentoring
-      DevEx
+    AI & MCP
+      AI Tools
+      MCPs
+      Nx
 ```
 
 ### 🚀 Current Projects
 
 I'm currently building [**Forge.js**](https://github.com/ofri-peretz/forge-js) - an open-source ecosystem of developer tools focused on improving code quality and team velocity. This includes ESLint plugins, CLI tools, and monorepo frameworks that help teams scale efficiently.
 
-### 🎯 Key Skills & Specializations
+### ✨ What Makes Me Tick
 
-- **Full-Stack Development** - End-to-end product development
-- **Engineering Leadership** - Building and mentoring high-performing teams
-- **Developer Experience** - Creating tools that boost productivity
-- **Scalable Architecture** - Systems that grow with business needs
-- **Open-Source Contribution** - Building tools for the developer community
+I get excited about turning complex problems into elegant solutions. Whether it's architecting a system that serves millions or helping a team deliver their best work, I thrive on the intersection of technology and human potential. My unique blend of deep technical expertise and people-first leadership helps me build not just code, but cultures of excellence.
 
 ---
 
