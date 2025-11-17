@@ -90,7 +90,13 @@ I've reached a point in my career where the technical challenges excite me just 
 
 What matters to me most is the intersection of technology and humanity. I believe the best engineering happens when we understand that behind every system, API, and deployment, there are people who depend on that technology working reliably. My work is driven by creating solutions that are not just technically sound, but also serve human needs and enable others to do meaningful work.
 
-I value craftsmanship in code and culture. Whether it's writing clean, testable code or fostering an environment where diverse perspectives lead to better outcomes, I find fulfillment in the details that create lasting impact. I'm at a place where I can see both the forest and the trees - understanding how individual contributions fit into larger organizational goals, and how small improvements in process can lead to significant gains in team productivity and product quality.
+### 🧭 My Leadership Philosophy
+
+I think deeply about how engineering organizations scale and thrive. In my recent writing about engineering vision for 2025, I explored how exponential growth requires exponential thinking - understanding that technical decisions have compounding effects on team velocity and business outcomes.
+
+What fascinates me is the interplay between incentives, ownership, and expertise. I believe teams should become domain experts rather than generalists, with clear north star metrics that align their work with business success. The most powerful engineering organizations aren't built on perfect code, but on systems that enable teams to move fast, make autonomous decisions, and focus their expertise where it matters most.
+
+Whether it's centralizing frontend infrastructure to eliminate duplication, embracing proven best practices over reinventing solutions, or creating the conditions for teams to become true experts in their domains - I find fulfillment in designing the systems and cultures that allow engineering excellence to flourish at scale.
 
 ---
 
