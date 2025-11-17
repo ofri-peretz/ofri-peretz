@@ -10,7 +10,7 @@
 
 Leading Snappy's U.S. engineering expansion. Building distributed teams, architecting revenue-generating API platforms, and establishing scalable infrastructure.
 
-If I would need to explain my current level of experience it would be around **IC5±** (MUI/Google equivalent).
+If I would need to explain my current level of experience it would be around **IC5±**.
 
 I value craftsmanship in both code and culture. Whether it's writing clean, testable code or fostering environments where diverse perspectives lead to better outcomes - I find fulfillment in the details that create lasting impact.
 
@@ -18,10 +18,10 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 
 ## 📦 Featured Packages
 
-| Package                                                                                                        | Downloads |
-| -------------------------------------------------------------------------------------------------------------- | --------- |
+| Package                                                                                                        | Downloads                                                                   |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [`@forge-js/eslint-plugin-llm-optimized`](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-llm-optimized) |
-| [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp)                                         | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp) |
+| [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp)                                         | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp)                     |
 
 ---
 
