@@ -26,7 +26,7 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 | [`eslint-plugin-llm-optimized`](https://www.npmjs.com/package/eslint-plugin-llm-optimized)                     | ![npm](https://img.shields.io/npm/dw/eslint-plugin-llm-optimized)           |
 | [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp)                                         | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp)                     |
 | [`eslint-plugin-mcp-optimized`](https://www.npmjs.com/package/eslint-plugin-mcp-optimized)                     | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp-optimized)           |
-| [`pmac`](https://www.npmjs.com/package/pmac)                                                                   | ![npm](https://img.shields.io/npm/dw/pmac)                                 |
+| [`pmac`](https://www.npmjs.com/package/pmac)                                                                   | ![npm](https://img.shields.io/npm/dw/pmac)                                  |
 
 ---
 
@@ -34,3 +34,45 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 
 - **GitHub**: [@ofri-peretz](https://github.com/ofri-peretz)
 - **LinkedIn**: [Ofri Peretz](https://www.linkedin.com/in/ofri-peretz/)
+
+---
+
+## 🛠️ Tech Stack
+
+```mermaid
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#f8fafc',
+    'primaryTextColor': '#1e293b',
+    'primaryBorderColor': '#334155',
+    'lineColor': '#475569'
+  }
+}}%%
+mindmap
+  root((Tech Stack))
+    Languages
+      TypeScript
+      JavaScript
+      Node.js
+    Frameworks
+      React
+      Express
+      NestJS
+    Backend
+      Kafka
+      Redis
+      Serverless
+    DevEx
+      ESLint
+      Packages
+      CLIs
+    Cloud
+      AWS
+      Docker
+      Kubernetes
+    AI & MCP
+      AI Tools
+      MCPs
+      Nx
+```
