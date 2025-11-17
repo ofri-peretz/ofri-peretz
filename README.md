@@ -91,6 +91,11 @@ mindmap
         Established Company-wide API-First Standards
       Engineering Excellence
         Migrated to TypeScript & Jest Standards
-        Wrote 1000+ Tests for TDD
+        Increased Test Coverage to Thousands of Tests
+        Improved Web Vitals from 50s to 70s
         Co-led Engineering Backend Guild
+      Business Partnership
+        Strategic Partner for US Business Expansion
+        Aligned Engineering with GTM Strategy
+        Supported Cross-Continental Growth Initiatives
 ```
