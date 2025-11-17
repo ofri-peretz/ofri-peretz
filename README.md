@@ -16,31 +16,25 @@ I love **creating products and tools that solve real problems** at scale. Whethe
 
 ---
 
-## 💼 Professional Journey
+## 💼 My Engineering Journey
 
-### 🏢 Current: U.S. Site Engineering Manager at Snappy
-**Austin, Texas, United States** • Oct 2024 - Present • 1 yr 2 mos
+### 🌟 Building Teams & Products That Scale
 
-- **Team Building**: Relocated to build Snappy's first U.S.-based engineering team from the ground up, successfully hiring and mentoring the foundational team
-- **Global Leadership**: Leading R&D's largest distributed team (US/EU), establishing and continuously improving cross-continental operational procedures to accelerate product delivery
-- **Business Partnership**: Serving as the key technical partner for U.S.-based business and GTM leadership, aligning engineering roadmaps with customer needs and market opportunities
+I'm currently leading the charge to establish Snappy's first U.S. engineering presence in Austin, Texas. It's been an incredible challenge - relocating across the world to build a team from scratch, figuring out how to make distributed collaboration actually work across time zones, and becoming the technical bridge between engineering and business teams.
 
-### 🔬 Engineering Leadership Experience at Snappy
+What gets me excited is seeing how small changes in developer experience can create massive impact. I built our Developer Experience function from the ground up, creating tools and processes that made everyone's life easier. That Compass metrics portal I launched? It completely changed how we think about engineering productivity.
 
-#### **DevEx Team Lead** • Dec 2022 - Present • 3 yrs
-- **Function Creation**: Championed and built the Developer Experience function from scratch, launching Compass metrics portal that fostered a data-driven culture of engineering excellence
-- **Infrastructure Modernization**: Modernized legacy infrastructure by developing 25+ shared packages and implementing mono-repo structure, significantly improving developer velocity and system reliability
-- **Architecture Standards**: Spearheaded company-wide API-first initiative, establishing governance and conventions that standardized microservices architecture for future scale
+### 🚀 Creating Products That Matter
 
-#### **Engineering Team Lead, API & Integrations** • Sep 2023 - Nov 2024 • 1 yr 3 mos • Tel Aviv District, Israel
-- **Product Innovation**: Architected and launched the company's first-ever Monetized API platform, creating a new product line that unlocked high-margin revenue stream from enterprise clients
-- **Team Transformation**: Revitalized a team, turning it into the #1 fastest-growing division in the company
-- **Cross-Functional Leadership**: Mentored the team to bridge the gap between engineering data and business metrics, improving planning, delivery, and stakeholder communication with Fortune 500 clients
+One of my proudest moments was architecting Snappy's first monetized API platform. We went from zero to a full product line generating real revenue from enterprise clients. But what mattered most was the team transformation - taking a struggling group and turning them into the fastest-growing division in the company.
 
-#### **Full Stack Engineer** • 2021 - Dec 2022 • 2 yrs
-- **Technical Leadership**: Acted as founder-minded engineer, spearheading bottom-up migration to TypeScript and forming R&D testing task force that established Jest and code coverage as company standards
-- **Scale Engineering**: Scaled core APIs by over 100x to handle enterprise-level load while championing test-driven development, personally writing over 1,000 tests
-- **Organizational Impact**: Co-led the Engineering Backend Guild with a Director, fostering cross-team collaboration and elevating technical standards across the organization
+I love the challenge of scaling systems. Taking APIs from serving hundreds to handling enterprise-scale traffic, writing thousands of tests to ensure reliability, and establishing standards that everyone rallies around. It's not just about the code - it's about creating the foundation for sustainable growth.
+
+### 💡 What Drives My Work
+
+I believe in engineering as a craft that serves both technical excellence and human needs. Whether it's mentoring developers to think bigger, bridging the gap between engineering metrics and business outcomes, or creating tools that make complex systems simpler - I thrive on problems that require both technical depth and human insight.
+
+My journey has taught me that the best solutions come from understanding people as much as understanding code. That's what keeps me passionate about building teams and products that create lasting impact.
 
 ---
 
