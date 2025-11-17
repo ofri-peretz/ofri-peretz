@@ -78,14 +78,16 @@ I get excited about turning complex problems into elegant solutions. Whether it'
 
 ---
 
-## 📈 GitHub Stats & Activity
+## 📦 Published Packages
 
-```text
-🔥 Active Projects: 10+ repositories
-📦 NPM Packages: 5+ published
-⭐ Total Stars: 2
-🚀 Recent Focus: ESLint plugins, developer tooling
-```
+| Package | Version | Weekly Downloads | Description |
+|---------|---------|------------------|-------------|
+| [`@forge-js/eslint-plugin-llm-optimized`](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | [![npm](https://img.shields.io/npm/v/@forge-js/eslint-plugin-llm-optimized)](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-llm-optimized) | ESLint plugin with LLM-optimized rules for AI-assisted development |
+| [`@forge-js/eslint-plugin-utils`](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils) | [![npm](https://img.shields.io/npm/v/@forge-js/eslint-plugin-utils)](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils) | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-utils) | Utilities and helpers for building TypeScript-based ESLint plugins |
+| [`@forge-js/cli`](https://www.npmjs.com/package/@forge-js/cli) | [![npm](https://img.shields.io/npm/v/@forge-js/cli)](https://www.npmjs.com/package/@forge-js/cli) | ![npm](https://img.shields.io/npm/dw/@forge-js/cli) | CLI tools for the Forge ecosystem |
+| [`eslint-plugin-llm-optimized`](https://www.npmjs.com/package/eslint-plugin-llm-optimized) | [![npm](https://img.shields.io/npm/v/eslint-plugin-llm-optimized)](https://www.npmjs.com/package/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dw/eslint-plugin-llm-optimized) | ESLint rules optimized for Large Language Models |
+| [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp) | [![npm](https://img.shields.io/npm/v/eslint-plugin-mcp)](https://www.npmjs.com/package/eslint-plugin-mcp) | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp) | ESLint rules optimized for Model Context Protocol |
+| [`eslint-plugin-mcp-optimized`](https://www.npmjs.com/package/eslint-plugin-mcp-optimized) | [![npm](https://img.shields.io/npm/v/eslint-plugin-mcp-optimized)](https://www.npmjs.com/package/eslint-plugin-mcp-optimized) | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp-optimized) | MCP rules with enhanced optimization |
 
 ### 📊 Development Philosophy
 
