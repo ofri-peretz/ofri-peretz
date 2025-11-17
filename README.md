@@ -18,18 +18,34 @@ I love **creating products and tools that solve real problems** at scale. Whethe
 
 ## 💼 Professional Journey
 
-### 🏢 Current: Full Stack Engineering Team Lead at Snappy Gifts
-Leading development of innovative gifting solutions, focusing on scalable architecture, team productivity, and delivering exceptional user experiences.
+### 🏢 Current: U.S. Site Engineering Manager at Snappy
+**Austin, Texas, United States** • Oct 2024 - Present • 1 yr 2 mos
 
-### 🔬 Previous Experience
-- **Software Developer** at engageli - Built interactive classroom solutions for educators and students
-- **Software Developer** at Israel Defense Forces - Developed mission-critical systems under high-stakes conditions
-- **Coach & Care Provider** at Amichai Non-Profit - Supported individuals with disabilities, fostering independence and growth
+Leading Snappy's U.S. expansion by building the first American engineering team from the ground up. Managing the largest distributed team across US/EU locations, establishing operational procedures for accelerated product delivery, and serving as the primary technical partner for U.S. business leadership.
 
-### 🎯 Leadership & Impact
-- **Team Leadership**: Mentoring engineers, establishing best practices, and driving technical excellence
-- **Product Development**: From concept to production, building systems that scale
-- **Cross-Disciplinary**: Bridging technology with real-world impact and user needs
+### 🔬 Leadership Experience at Snappy
+
+#### **DevEx Team Lead** • Dec 2022 - Present • 3 yrs
+- **Built Developer Experience function from scratch** - Launched Compass metrics portal fostering data-driven engineering culture
+- **Modernized infrastructure** - Developed 25+ shared packages and implemented mono-repo structure, dramatically improving developer velocity
+- **Company-wide API-first initiative** - Established governance and conventions for scalable microservices architecture
+
+#### **Engineering Team Lead, API & Integrations** • Sep 2023 - Nov 2024 • 1 yr 3 mos
+- **Architected Monetized API platform** - Created first-ever product line generating high-margin revenue from enterprise clients
+- **Team transformation** - Revitalized team into fastest-growing division, bridging engineering data with business metrics
+- **Enterprise client success** - Improved planning, delivery, and communication with Fortune 500 clients
+
+#### **Full Stack Engineer** • 2021 - Dec 2022 • 2 yrs
+- **Founder-minded engineering** - Led TypeScript migration and established Jest/code coverage standards
+- **API scaling** - Grew core APIs 100x to handle enterprise-level load with comprehensive test coverage (1,000+ tests)
+- **Cross-team collaboration** - Co-led Engineering Backend Guild, elevating technical standards organization-wide
+
+### 🎯 Key Achievements & Impact
+- **Team Building**: Hired and mentored foundational U.S. engineering team
+- **Product Innovation**: Launched revenue-generating API platform from concept to production
+- **Infrastructure Modernization**: 25+ shared packages, mono-repo architecture, API governance
+- **Scale & Performance**: 100x API growth with enterprise-grade reliability
+- **Cross-Continental Leadership**: Managing distributed teams across US/EU timezones
 
 ---
 
