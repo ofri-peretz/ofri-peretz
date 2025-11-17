@@ -19,7 +19,10 @@ I love **creating products and tools that solve real problems** at scale. Whethe
 ## 💼 Professional Journey
 
 ### 🏢 Current: Engineering Manager & Builder at Snappy
+
 With over 10+ years as a developer, I now focus on building products and teams that scale. As U.S. Site Engineering Manager, I lead distributed engineering teams across US/EU timezones, drive product innovation, and establish scalable infrastructure that supports rapid growth.
+
+**Current Challenge**: Building Snappy's first U.S.-based engineering organization from the ground up while maintaining seamless collaboration across global teams and time zones.
 
 ---
 
