@@ -84,25 +84,13 @@ mindmap
 
 I'm currently building [**Forge.js**](https://github.com/ofri-peretz/forge-js) - an open-source ecosystem of developer tools focused on improving code quality and team velocity. This includes ESLint plugins, CLI tools, and monorepo frameworks that help teams scale efficiently.
 
-### Engineering Leadership Assessment
+### 🎯 Where I Find Myself Today
 
-Based on industry-standard leveling frameworks (comparable to [MUI's IC levels](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1) or Google/Microsoft staff levels):
+I've reached a point in my career where the technical challenges excite me just as much as the human ones. Leading distributed teams across continents, building products that serve real business needs, and creating environments where engineers can do their best work - these are the aspects that keep me energized.
 
-**Current Level**: IC5 - Senior Staff Engineer / Engineering Manager equivalent
+What matters to me most is the intersection of technology and humanity. I believe the best engineering happens when we understand that behind every system, API, and deployment, there are people who depend on that technology working reliably. My work is driven by creating solutions that are not just technically sound, but also serve human needs and enable others to do meaningful work.
 
-- **Scope**: Leads distributed engineering teams across global timezones
-- **Impact**: Drives product innovation, establishes scalable infrastructure, builds engineering culture
-- **Technical Depth**: 10+ years building production systems at scale
-- **Leadership**: Manages cross-functional initiatives, mentors teams, influences technical strategy
-
-**Key Strengths**:
-
-- **Product Engineering**: Architected revenue-generating API platforms and scaled systems 100x
-- **Developer Experience**: Built DevEx function from scratch, established testing and tooling standards
-- **Team Leadership**: Hired and mentored engineering teams, led cross-continental operations
-- **Open-Source Impact**: Created tooling ecosystem used by thousands of developers
-
-**Career Trajectory**: Progressed from individual contributor to technical leadership, now focused on scaling engineering organizations and driving product innovation.
+I value craftsmanship in code and culture. Whether it's writing clean, testable code or fostering an environment where diverse perspectives lead to better outcomes, I find fulfillment in the details that create lasting impact. I'm at a place where I can see both the forest and the trees - understanding how individual contributions fit into larger organizational goals, and how small improvements in process can lead to significant gains in team productivity and product quality.
 
 ---
 
