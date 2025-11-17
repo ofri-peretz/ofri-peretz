@@ -19,6 +19,7 @@ I love **creating products and tools that solve real problems** at scale. Whethe
 ## 💼 Professional Journey
 
 ### 🏢 Current: U.S. Site Engineering Manager at Snappy
+
 **Austin, Texas, United States** • Oct 2024 - Present • 1 yr 2 mos
 
 Leading Snappy's U.S. expansion by building the first American engineering team from the ground up. Managing the largest distributed team across US/EU locations, establishing operational procedures for accelerated product delivery, and serving as the primary technical partner for U.S. business leadership.
@@ -26,21 +27,16 @@ Leading Snappy's U.S. expansion by building the first American engineering team 
 ### 🔬 Leadership Experience at Snappy
 
 #### **DevEx Team Lead** • Dec 2022 - Present • 3 yrs
-- **Built Developer Experience function from scratch** - Launched Compass metrics portal fostering data-driven engineering culture
-- **Modernized infrastructure** - Developed 25+ shared packages and implemented mono-repo structure, dramatically improving developer velocity
-- **Company-wide API-first initiative** - Established governance and conventions for scalable microservices architecture
+Built Developer Experience function from scratch, launched Compass metrics portal, and modernized infrastructure with 25+ shared packages and mono-repo architecture.
 
 #### **Engineering Team Lead, API & Integrations** • Sep 2023 - Nov 2024 • 1 yr 3 mos
-- **Architected Monetized API platform** - Created first-ever product line generating high-margin revenue from enterprise clients
-- **Team transformation** - Revitalized team into fastest-growing division, bridging engineering data with business metrics
-- **Enterprise client success** - Improved planning, delivery, and communication with Fortune 500 clients
+Architected first-ever Monetized API platform creating new revenue streams, and transformed team into fastest-growing division serving Fortune 500 clients.
 
 #### **Full Stack Engineer** • 2021 - Dec 2022 • 2 yrs
-- **Founder-minded engineering** - Led TypeScript migration and established Jest/code coverage standards
-- **API scaling** - Grew core APIs 100x to handle enterprise-level load with comprehensive test coverage (1,000+ tests)
-- **Cross-team collaboration** - Co-led Engineering Backend Guild, elevating technical standards organization-wide
+Led TypeScript migration, scaled APIs 100x with comprehensive testing (1,000+ tests), and co-led Engineering Backend Guild elevating technical standards.
 
 ### 🎯 Key Achievements & Impact
+
 - **Team Building**: Hired and mentored foundational U.S. engineering team
 - **Product Innovation**: Launched revenue-generating API platform from concept to production
 - **Infrastructure Modernization**: 25+ shared packages, mono-repo architecture, API governance
@@ -52,6 +48,7 @@ Leading Snappy's U.S. expansion by building the first American engineering team 
 ## 🛠️ Technical Expertise & Current Projects
 
 ### 💻 Technology Stack
+
 ```mermaid
 %%{init: {
   'theme': 'base',
@@ -87,9 +84,11 @@ mindmap
 ```
 
 ### 🚀 Current Projects
+
 I'm currently building [**Forge.js**](https://github.com/ofri-peretz/forge-js) - an open-source ecosystem of developer tools focused on improving code quality and team velocity. This includes ESLint plugins, CLI tools, and monorepo frameworks that help teams scale efficiently.
 
 ### 🎯 Key Skills & Specializations
+
 - **Full-Stack Development** - End-to-end product development
 - **Engineering Leadership** - Building and mentoring high-performing teams
 - **Developer Experience** - Creating tools that boost productivity
@@ -109,18 +108,19 @@ I'm currently building [**Forge.js**](https://github.com/ofri-peretz/forge-js) -
 
 ### 📊 Development Philosophy
 
-| Principle | Implementation | Impact |
-|-----------|----------------|--------|
-| **Quality First** | Comprehensive testing, TypeScript | Fewer bugs, better DX |
-| **Scale Ready** | Monorepo patterns, Nx tooling | Teams can grow efficiently |
-| **AI-Enhanced** | LLM-optimized code and docs | Faster development cycles |
-| **Community Driven** | Open issues, responsive PRs | Collective improvement |
+| Principle            | Implementation                    | Impact                     |
+| -------------------- | --------------------------------- | -------------------------- |
+| **Quality First**    | Comprehensive testing, TypeScript | Fewer bugs, better DX      |
+| **Scale Ready**      | Monorepo patterns, Nx tooling     | Teams can grow efficiently |
+| **AI-Enhanced**      | LLM-optimized code and docs       | Faster development cycles  |
+| **Community Driven** | Open issues, responsive PRs       | Collective improvement     |
 
 ---
 
 ## 🤝 Let's Connect
 
 I'm always excited to discuss:
+
 - **Engineering Leadership** - Scaling teams and processes
 - **Developer Tools** - Building better development experiences
 - **Open-Source** - Contributing to the developer community
@@ -137,6 +137,7 @@ I'm always excited to discuss:
 ## 🎨 Personal Interests
 
 Beyond code, I'm passionate about:
+
 - **Urban Planning** & Community Development
 - **Social Impact** & Accessibility
 - **Continuous Learning** & Technology Innovation
@@ -144,8 +145,8 @@ Beyond code, I'm passionate about:
 
 ---
 
-> *"Code is poetry in motion. I write tools that help others write better poetry."*
+> _"Code is poetry in motion. I write tools that help others write better poetry."_
 
 ---
 
-*Made with ❤️ and TypeScript • Building the future, one commit at a time*
+_Made with ❤️ and TypeScript • Building the future, one commit at a time_
