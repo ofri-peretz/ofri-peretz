@@ -37,7 +37,7 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Impact
 
 ```mermaid
 %%{init: {
@@ -50,29 +50,47 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
   }
 }}%%
 mindmap
-  root((Tech Stack))
-    Languages
-      TypeScript
-      JavaScript
-      Node.js
-    Frameworks
-      React
-      Express
-      NestJS
-    Backend
-      Kafka
-      Redis
-      Serverless
-    DevEx
-      ESLint
-      Packages
-      CLIs
-    Cloud
-      AWS
-      Docker
-      Kubernetes
-    AI & MCP
-      AI Tools
-      MCPs
-      Nx
+  root((Tech & Business Impact))
+    Technical Stack
+      Languages
+        TypeScript
+        JavaScript
+        Node.js
+      Frameworks
+        React
+        Express
+        NestJS
+      Backend
+        Kafka
+        Redis
+        Serverless
+      DevEx
+        ESLint
+        Packages
+        CLIs
+      Cloud
+        AWS
+        Docker
+        Kubernetes
+      AI & MCP
+        AI Tools
+        MCPs
+        Nx
+    Business Achievements
+      Team Leadership
+        Built 1st U.S. Engineering Team
+        Leading Largest Distributed Team (US/EU)
+        Revitalized Team to #1 Fastest-Growing Division
+      Product Innovation
+        Architected 1st Monetized API Platform
+        Created New High-Margin Revenue Stream
+        Scaled APIs 100x for Enterprise Load
+      Infrastructure & DevEx
+        Built Developer Experience Function from Scratch
+        Developed 25+ Shared Packages & Mono-repo
+        Established Company-wide API-First Standards
+      Engineering Excellence
+        Migrated to TypeScript & Jest Standards
+        Wrote 1000+ Tests for TDD
+        Co-led Engineering Backend Guild
 ```
