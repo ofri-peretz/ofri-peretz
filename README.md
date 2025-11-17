@@ -72,22 +72,36 @@ mindmap
 
 I'm currently building [**Forge.js**](https://github.com/ofri-peretz/forge-js) - an open-source ecosystem of developer tools focused on improving code quality and team velocity. This includes ESLint plugins, CLI tools, and monorepo frameworks that help teams scale efficiently.
 
-### ✨ What Makes Me Tick
+### Engineering Leadership Assessment
 
-I get excited about turning complex problems into elegant solutions. Whether it's architecting a system that serves millions or helping a team deliver their best work, I thrive on the intersection of technology and human potential. My unique blend of deep technical expertise and people-first leadership helps me build not just code, but cultures of excellence.
+Based on industry-standard leveling frameworks (comparable to [MUI's IC levels](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1) or Google/Microsoft staff levels):
+
+**Current Level**: IC5 - Senior Staff Engineer / Engineering Manager equivalent
+- **Scope**: Leads distributed engineering teams across global timezones
+- **Impact**: Drives product innovation, establishes scalable infrastructure, builds engineering culture
+- **Technical Depth**: 10+ years building production systems at scale
+- **Leadership**: Manages cross-functional initiatives, mentors teams, influences technical strategy
+
+**Key Strengths**:
+- **Product Engineering**: Architected revenue-generating API platforms and scaled systems 100x
+- **Developer Experience**: Built DevEx function from scratch, established testing and tooling standards
+- **Team Leadership**: Hired and mentored engineering teams, led cross-continental operations
+- **Open-Source Impact**: Created tooling ecosystem used by thousands of developers
+
+**Career Trajectory**: Progressed from individual contributor to technical leadership, now focused on scaling engineering organizations and driving product innovation.
 
 ---
 
 ## 📦 Published Packages
 
-| Package | Version | Weekly Downloads | Description |
-|---------|---------|------------------|-------------|
+| Package                                                                                                        | Version                                                                                                                                           | Weekly Downloads                                                            | Description                                                        |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | [`@forge-js/eslint-plugin-llm-optimized`](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | [![npm](https://img.shields.io/npm/v/@forge-js/eslint-plugin-llm-optimized)](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-llm-optimized) | ESLint plugin with LLM-optimized rules for AI-assisted development |
-| [`@forge-js/eslint-plugin-utils`](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils) | [![npm](https://img.shields.io/npm/v/@forge-js/eslint-plugin-utils)](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils) | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-utils) | Utilities and helpers for building TypeScript-based ESLint plugins |
-| [`@forge-js/cli`](https://www.npmjs.com/package/@forge-js/cli) | [![npm](https://img.shields.io/npm/v/@forge-js/cli)](https://www.npmjs.com/package/@forge-js/cli) | ![npm](https://img.shields.io/npm/dw/@forge-js/cli) | CLI tools for the Forge ecosystem |
-| [`eslint-plugin-llm-optimized`](https://www.npmjs.com/package/eslint-plugin-llm-optimized) | [![npm](https://img.shields.io/npm/v/eslint-plugin-llm-optimized)](https://www.npmjs.com/package/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dw/eslint-plugin-llm-optimized) | ESLint rules optimized for Large Language Models |
-| [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp) | [![npm](https://img.shields.io/npm/v/eslint-plugin-mcp)](https://www.npmjs.com/package/eslint-plugin-mcp) | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp) | ESLint rules optimized for Model Context Protocol |
-| [`eslint-plugin-mcp-optimized`](https://www.npmjs.com/package/eslint-plugin-mcp-optimized) | [![npm](https://img.shields.io/npm/v/eslint-plugin-mcp-optimized)](https://www.npmjs.com/package/eslint-plugin-mcp-optimized) | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp-optimized) | MCP rules with enhanced optimization |
+| [`@forge-js/eslint-plugin-utils`](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils)                 | [![npm](https://img.shields.io/npm/v/@forge-js/eslint-plugin-utils)](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils)                 | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-utils)         | Utilities and helpers for building TypeScript-based ESLint plugins |
+| [`@forge-js/cli`](https://www.npmjs.com/package/@forge-js/cli)                                                 | [![npm](https://img.shields.io/npm/v/@forge-js/cli)](https://www.npmjs.com/package/@forge-js/cli)                                                 | ![npm](https://img.shields.io/npm/dw/@forge-js/cli)                         | CLI tools for the Forge ecosystem                                  |
+| [`eslint-plugin-llm-optimized`](https://www.npmjs.com/package/eslint-plugin-llm-optimized)                     | [![npm](https://img.shields.io/npm/v/eslint-plugin-llm-optimized)](https://www.npmjs.com/package/eslint-plugin-llm-optimized)                     | ![npm](https://img.shields.io/npm/dw/eslint-plugin-llm-optimized)           | ESLint rules optimized for Large Language Models                   |
+| [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp)                                         | [![npm](https://img.shields.io/npm/v/eslint-plugin-mcp)](https://www.npmjs.com/package/eslint-plugin-mcp)                                         | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp)                     | ESLint rules optimized for Model Context Protocol                  |
+| [`eslint-plugin-mcp-optimized`](https://www.npmjs.com/package/eslint-plugin-mcp-optimized)                     | [![npm](https://img.shields.io/npm/v/eslint-plugin-mcp-optimized)](https://www.npmjs.com/package/eslint-plugin-mcp-optimized)                     | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp-optimized)           | MCP rules with enhanced optimization                               |
 
 ### 📊 Development Philosophy
 
