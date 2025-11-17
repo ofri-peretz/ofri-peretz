@@ -18,11 +18,29 @@ I love **creating products and tools that solve real problems** at scale. Whethe
 
 ## 💼 Professional Journey
 
-### 🏢 Current: Engineering Manager & Builder at Snappy
+### 🏢 Current: U.S. Site Engineering Manager at Snappy
+**Austin, Texas, United States** • Oct 2024 - Present • 1 yr 2 mos
 
-With over 10+ years as a developer, I now focus on building products and teams that scale. As U.S. Site Engineering Manager, I lead distributed engineering teams across US/EU timezones, drive product innovation, and establish scalable infrastructure that supports rapid growth.
+- **Team Building**: Relocated to build Snappy's first U.S.-based engineering team from the ground up, successfully hiring and mentoring the foundational team
+- **Global Leadership**: Leading R&D's largest distributed team (US/EU), establishing and continuously improving cross-continental operational procedures to accelerate product delivery
+- **Business Partnership**: Serving as the key technical partner for U.S.-based business and GTM leadership, aligning engineering roadmaps with customer needs and market opportunities
 
-**Current Challenge**: Building Snappy's first U.S.-based engineering organization from the ground up while maintaining seamless collaboration across global teams and time zones.
+### 🔬 Engineering Leadership Experience at Snappy
+
+#### **DevEx Team Lead** • Dec 2022 - Present • 3 yrs
+- **Function Creation**: Championed and built the Developer Experience function from scratch, launching Compass metrics portal that fostered a data-driven culture of engineering excellence
+- **Infrastructure Modernization**: Modernized legacy infrastructure by developing 25+ shared packages and implementing mono-repo structure, significantly improving developer velocity and system reliability
+- **Architecture Standards**: Spearheaded company-wide API-first initiative, establishing governance and conventions that standardized microservices architecture for future scale
+
+#### **Engineering Team Lead, API & Integrations** • Sep 2023 - Nov 2024 • 1 yr 3 mos • Tel Aviv District, Israel
+- **Product Innovation**: Architected and launched the company's first-ever Monetized API platform, creating a new product line that unlocked high-margin revenue stream from enterprise clients
+- **Team Transformation**: Revitalized a team, turning it into the #1 fastest-growing division in the company
+- **Cross-Functional Leadership**: Mentored the team to bridge the gap between engineering data and business metrics, improving planning, delivery, and stakeholder communication with Fortune 500 clients
+
+#### **Full Stack Engineer** • 2021 - Dec 2022 • 2 yrs
+- **Technical Leadership**: Acted as founder-minded engineer, spearheading bottom-up migration to TypeScript and forming R&D testing task force that established Jest and code coverage as company standards
+- **Scale Engineering**: Scaled core APIs by over 100x to handle enterprise-level load while championing test-driven development, personally writing over 1,000 tests
+- **Organizational Impact**: Co-led the Engineering Backend Guild with a Director, fostering cross-team collaboration and elevating technical standards across the organization
 
 ---
 
@@ -77,12 +95,14 @@ I'm currently building [**Forge.js**](https://github.com/ofri-peretz/forge-js) -
 Based on industry-standard leveling frameworks (comparable to [MUI's IC levels](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1) or Google/Microsoft staff levels):
 
 **Current Level**: IC5 - Senior Staff Engineer / Engineering Manager equivalent
+
 - **Scope**: Leads distributed engineering teams across global timezones
 - **Impact**: Drives product innovation, establishes scalable infrastructure, builds engineering culture
 - **Technical Depth**: 10+ years building production systems at scale
 - **Leadership**: Manages cross-functional initiatives, mentors teams, influences technical strategy
 
 **Key Strengths**:
+
 - **Product Engineering**: Architected revenue-generating API platforms and scaled systems 100x
 - **Developer Experience**: Built DevEx function from scratch, established testing and tooling standards
 - **Team Leadership**: Hired and mentored engineering teams, led cross-continental operations
