@@ -21,7 +21,12 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 | Package                                                                                                        | Downloads                                                                   |
 | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [`@forge-js/eslint-plugin-llm-optimized`](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-llm-optimized) |
+| [`@forge-js/eslint-plugin-utils`](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils)                 | ![npm](https://img.shields.io/npm/dw/@forge-js/eslint-plugin-utils)         |
+| [`@forge-js/cli`](https://www.npmjs.com/package/@forge-js/cli)                                                 | ![npm](https://img.shields.io/npm/dw/@forge-js/cli)                         |
+| [`eslint-plugin-llm-optimized`](https://www.npmjs.com/package/eslint-plugin-llm-optimized)                     | ![npm](https://img.shields.io/npm/dw/eslint-plugin-llm-optimized)           |
 | [`eslint-plugin-mcp`](https://www.npmjs.com/package/eslint-plugin-mcp)                                         | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp)                     |
+| [`eslint-plugin-mcp-optimized`](https://www.npmjs.com/package/eslint-plugin-mcp-optimized)                     | ![npm](https://img.shields.io/npm/dw/eslint-plugin-mcp-optimized)           |
+| [`pmac`](https://www.npmjs.com/package/pmac)                                                                   | ![npm](https://img.shields.io/npm/dw/pmac)                                 |
 
 ---
 
