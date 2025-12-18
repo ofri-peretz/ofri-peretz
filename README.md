@@ -10,7 +10,7 @@
 
 Leading Snappy's U.S. engineering expansion. Building distributed teams, architecting revenue-generating API platforms, and establishing scalable infrastructure.
 
-If I would need to explain my current level of experience it would be around **IC5±**.
+If I would need to explain my current level of experience it would be around **IC5/M2±**.
 
 I value craftsmanship in both code and culture. Whether it's writing clean, testable code or fostering environments where diverse perspectives lead to better outcomes - I find fulfillment in the details that create lasting impact.
 
