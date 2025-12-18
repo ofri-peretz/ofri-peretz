@@ -10,7 +10,7 @@
 
 Leading Snappy's U.S. engineering expansion. Building distributed teams, architecting revenue-generating API platforms, and establishing scalable infrastructure.
 
-If I would need to explain my current level of experience it would be around **IC5/M2±**.
+If I would need to explain my current level of experience it would be around [**IC5/M2±**](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1).
 
 I value craftsmanship in both code and culture. Whether it's writing clean, testable code or fostering environments where diverse perspectives lead to better outcomes - I find fulfillment in the details that create lasting impact.
 
