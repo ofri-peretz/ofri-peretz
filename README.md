@@ -10,6 +10,8 @@
 
 Leading Snappy's U.S. engineering expansion. Building distributed teams, architecting revenue-generating API platforms, and establishing scalable infrastructure.
 
+**🔥 Currently revolutionizing the ESLint plugin ecosystem for the AI/Agentic era — building LLM-optimized, security-first static analysis tools that empower both human developers and AI coding assistants.**
+
 If I would need to explain my current level of experience it would be around [**IC5/M2±**](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1).
 
 I value craftsmanship in both code and culture. Whether it's writing clean, testable code or fostering environments where diverse perspectives lead to better outcomes - I find fulfillment in the details that create lasting impact.
@@ -20,6 +22,9 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 
 | Package                                                                                                        | Downloads                                                                   |
 | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [`eslint-plugin-secure-coding`](https://www.npmjs.com/package/eslint-plugin-secure-coding)                     | ![npm](https://img.shields.io/npm/dm/eslint-plugin-secure-coding)           |
+| [`eslint-plugin-vercel-ai-security`](https://www.npmjs.com/package/eslint-plugin-vercel-ai-security)           | ![npm](https://img.shields.io/npm/dm/eslint-plugin-vercel-ai-security)      |
+| [`eslint-plugin-pg`](https://www.npmjs.com/package/eslint-plugin-pg)                                           | ![npm](https://img.shields.io/npm/dm/eslint-plugin-pg)                      |
 | [`@forge-js/eslint-plugin-llm-optimized`](https://www.npmjs.com/package/@forge-js/eslint-plugin-llm-optimized) | ![npm](https://img.shields.io/npm/dm/@forge-js/eslint-plugin-llm-optimized) |
 | [`@forge-js/eslint-plugin-utils`](https://www.npmjs.com/package/@forge-js/eslint-plugin-utils)                 | ![npm](https://img.shields.io/npm/dm/@forge-js/eslint-plugin-utils)         |
 | [`@forge-js/cli`](https://www.npmjs.com/package/@forge-js/cli)                                                 | ![npm](https://img.shields.io/npm/dm/@forge-js/cli)                         |
