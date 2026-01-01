@@ -80,6 +80,8 @@ I value craftsmanship in both code and culture. Whether it's writing clean, test
 
 - **GitHub**: [@ofri-peretz](https://github.com/ofri-peretz)
 - **LinkedIn**: [Ofri Peretz](https://www.linkedin.com/in/ofri-peretz/)
+- **dev.to**: [ofri-peretz](https://dev.to/ofri-peretz)
+- **X**: [ofri-peretz](https://x.com/ofriperetzdev)
 
 ---
 
