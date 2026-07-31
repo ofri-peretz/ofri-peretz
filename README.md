@@ -12,6 +12,18 @@ Referenced in **700+ public repositories** on GitHub — [see the search](https:
 
 ---
 
+## 🧵 What is Interlace?
+
+**[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** — a family of small, focused, TypeScript-native developer tools that **interlock**: same brand, same docs experience, same evidence contract. Independent, MIT-licensed, built in the open. No comparative claim ships without a versioned benchmark you can rerun.
+
+The ecosystems being built under it:
+
+| Ecosystem | What it is | Explore |
+| --- | --- | --- |
+| **ESLint plugins** | Security, quality & React static analysis with LLM-optimized messages — built for both human devs and AI coding assistants | [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) |
+| **Serverless plugins** | TypeScript-first Serverless Framework tooling — caching, IAM, config devkit | [serverless.interlace.tools](https://serverless.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) |
+| **Design system** | The shared foundation every Interlace surface is built on — tokens, components, AA-verified themes | [ds.interlace.tools](https://ds.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) · [storybook.interlace.tools](https://storybook.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) |
+
 ## 📦 Interlace ESLint Ecosystem
 
 📖 Docs & rule reference: [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)
