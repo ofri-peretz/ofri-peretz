@@ -1,0 +1,131 @@
+# Keeps milestone stat claims fresh across profiles, from the North Star ratchet.
+# Reads public.v_storefront_ratchet (anon-readable; same view the blog consumes —
+# single source of truth, no recomputation).
+#
+#   1. README hero line — edited + committed automatically, ONLY when a displayed
+#      milestone changes (git history stays quiet).
+#   2. Dev.to bio — Forem API has no self-profile-update endpoint (admin-only),
+#      so drift opens/updates a GitHub issue here with paste-ready bio text.
+#
+# Claims are rounded-DOWN milestones (evidence doctrine) and NEVER downgrade:
+# the ratchet cumulative can transiently dip (npm 429s skip backfill windows),
+# so a lower milestone is treated as "not crossed yet", not a regression.
+#
+# Required repo secrets (values are already public — they ship in the blog's
+# client bundle — but kept as secrets for hygiene):
+#   SUPABASE_URL       — https://<project-ref>.supabase.co
+#   SUPABASE_ANON_KEY  — anon JWT
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC, an hour after daily-impact-ingest
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v6
+      - name: Recompute milestones, edit README, detect Dev.to bio drift
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          node - <<'EOF'
+          const fs = require("fs");
+
+          // Milestone formatters: downloads floor to 100K steps (300K+ … 1.1M+),
+          // followers floor to 500 steps (1.5K+, 2K+, …). parse() inverts them.
+          const trim = (x) => String(x).replace(/\.0$/, "");
+          const fmtDl = (n) =>
+            n >= 1e6 ? `${trim((Math.floor(n / 1e5) / 10).toFixed(1))}M+`
+                     : `${Math.floor(n / 1e5) * 100}K+`;
+          const fmtFo = (n) => `${trim(((Math.floor(n / 500) * 500) / 1e3).toFixed(1))}K+`;
+          const parse = (s) => {
+            const m = /^([\d.]+)([KM])\+$/.exec(s);
+            return m ? +m[1] * (m[2] === "K" ? 1e3 : 1e6) : 0;
+          };
+
+          // Swap the stat token before `label` in `text`, only ratcheting UP.
+          const bump = (text, label, token) => {
+            const re = new RegExp(String.raw`([\d.]+[KM]\+)(\s*${label})`);
+            const m = re.exec(text);
+            if (!m || parse(token) <= parse(m[1])) return text;
+            return text.replace(re, `${token}$2`);
+          };
+
+          const main = async () => {
+            const r = await fetch(
+              `${process.env.SUPABASE_URL}/rest/v1/v_storefront_ratchet` +
+                `?kind=in.(eng_downloads_cumulative,eng_devto_followers)&select=kind,current_value`,
+              { headers: { apikey: process.env.SUPABASE_ANON_KEY } },
+            );
+            if (!r.ok) throw new Error(`ratchet fetch ${r.status}`);
+            const rows = await r.json();
+            const val = (k) => rows.find((x) => x.kind === k)?.current_value;
+            const downloads = val("eng_downloads_cumulative");
+            const followers = val("eng_devto_followers");
+            // Fail loudly on missing/implausible data — silent skips go stale.
+            if (!downloads || !followers) throw new Error(`missing ratchet rows: ${JSON.stringify(rows)}`);
+            if (downloads < 100_000 || followers < 500) throw new Error("implausibly low values — refusing to edit");
+            const dlToken = fmtDl(downloads);
+            const foToken = fmtFo(followers);
+            console.log(`ratchet: downloads=${downloads} (${dlToken}) followers=${followers} (${foToken})`);
+
+            // 1. GitHub README hero line
+            const readme = fs.readFileSync("README.md", "utf8");
+            let next = bump(readme, "npm downloads", dlToken);
+            next = bump(next, "followers", foToken);
+            if (next !== readme) {
+              fs.writeFileSync("README.md", next);
+              console.log("README milestones updated");
+            } else console.log("README milestones unchanged");
+
+            // 2. Dev.to bio (read-only API — drift becomes an issue, human pastes)
+            const p = await fetch("https://dev.to/api/users/by_username?url=ofri-peretz", {
+              headers: { "User-Agent": "ofri-profile-stats" },
+            });
+            if (!p.ok) return console.log(`dev.to profile fetch ${p.status} — skipping bio check`);
+            const summary = (await p.json()).summary ?? "";
+            let bio = bump(summary, "npm downloads", dlToken);
+            bio = bump(bio, "followers", foToken);
+            if (bio !== summary) {
+              fs.writeFileSync(
+                "devto-drift.md",
+                [
+                  "The Dev.to bio's stat milestones are behind the ratchet.",
+                  "Paste this at https://dev.to/settings/profile → Bio:",
+                  "", "```", bio, "```", "",
+                  `Ratchet evidence: ${downloads.toLocaleString()} downloads, ${followers.toLocaleString()} followers.`,
+                ].join("\n"),
+              );
+              console.log("dev.to bio drift detected");
+            } else console.log("dev.to bio: no stat drift (no stat tokens, or up to date)");
+          };
+          main().catch((e) => { console.error(e); process.exit(1); });
+          EOF
+      - name: Commit README if changed
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: hero stats milestone crossed"
+          git push
+      - name: Open issue on Dev.to bio drift
+        if: ${{ hashFiles('devto-drift.md') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Dev.to bio stats stale"
+          num=$(gh issue list --state open --search "\"$title\" in:title" --json number -q '.[0].number')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body-file devto-drift.md
+          else
+            gh issue create --title "$title" --body-file devto-drift.md
+          fi
