@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://raw.githubusercontent.com/ofri-peretz/ofri-peretz/main/assets/interlace-mark.svg" width="120" height="120" alt="Interlace mark — two offset bars, orange and green" /></a>
+  <a href="https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://raw.githubusercontent.com/ofri-peretz/ofri-peretz/main/assets/interlace-mark.svg" width="120" height="120" alt="Interlace mark — two offset bars, orange and green" /></a>
 </p>
 
 # 🚀 Ofri Peretz
