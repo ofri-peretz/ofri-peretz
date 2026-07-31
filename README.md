@@ -1,4 +1,4 @@
-# 🚀 Ofri Peretz
+# <img src="https://raw.githubusercontent.com/ofri-peretz/ofri-peretz/main/assets/interlace-mark.svg" width="30" height="30" alt="Interlace mark — two offset bars, orange and green" /> Ofri Peretz
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 
@@ -9,6 +9,8 @@ Referenced in **700+ public repositories** on GitHub — [see the search](https:
 ---
 
 ## 📦 Interlace ESLint Ecosystem
+
+📖 Docs & rule reference: [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)
 
 ### 🔐 Security Plugins
 
@@ -81,6 +83,7 @@ Referenced in **700+ public repositories** on GitHub — [see the search](https:
 
 ## 🤝 Let's Connect
 
+- **Website**: [ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme)
 - **GitHub**: [@ofri-peretz](https://github.com/ofri-peretz)
 - **LinkedIn**: [Ofri Peretz](https://www.linkedin.com/in/ofri-peretz/)
 - **dev.to**: [ofri-peretz](https://dev.to/ofri-peretz)
