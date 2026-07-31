@@ -1,4 +1,8 @@
-# <img src="https://raw.githubusercontent.com/ofri-peretz/ofri-peretz/main/assets/interlace-mark.svg" width="30" height="30" alt="Interlace mark — two offset bars, orange and green" /> Ofri Peretz
+<p align="center">
+  <a href="https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://raw.githubusercontent.com/ofri-peretz/ofri-peretz/main/assets/interlace-mark.svg" width="120" height="120" alt="Interlace mark — two offset bars, orange and green" /></a>
+</p>
+
+# 🚀 Ofri Peretz
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 
