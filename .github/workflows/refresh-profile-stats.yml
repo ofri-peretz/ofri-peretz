@@ -40,12 +40,13 @@ jobs:
           node - <<'EOF'
           const fs = require("fs");
 
-          // Milestone formatters: downloads floor to 100K steps (300K+ … 1.1M+),
+          // Milestone formatters: downloads floor to 50K steps below 1M (350K+),
+          // 100K steps above it (1.1M+ — 1.05M+ reads as an odometer, not a milestone);
           // followers floor to 500 steps (1.5K+, 2K+, …). parse() inverts them.
           const trim = (x) => String(x).replace(/\.0$/, "");
           const fmtDl = (n) =>
             n >= 1e6 ? `${trim((Math.floor(n / 1e5) / 10).toFixed(1))}M+`
-                     : `${Math.floor(n / 1e5) * 100}K+`;
+                     : `${Math.floor(n / 5e4) * 50}K+`;
           const fmtFo = (n) => `${trim(((Math.floor(n / 500) * 500) / 1e3).toFixed(1))}K+`;
           const parse = (s) => {
             const m = /^([\d.]+)([KM])\+$/.exec(s);
