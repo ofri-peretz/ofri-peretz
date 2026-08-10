@@ -2,11 +2,19 @@
   <a href="https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://raw.githubusercontent.com/ofri-peretz/ofri-peretz/main/assets/interlace-mark.svg" width="120" height="120" alt="Interlace mark — two offset bars, orange and green" /></a>
 </p>
 
-# 🚀 Ofri Peretz
+<h1 align="center">Ofri Peretz</h1>
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+<p align="center"><strong>Building products that matter.</strong></p>
 
-**Building Products That Matter.** Architect of the **Interlace ESLint Ecosystem** — 332+ security & quality rules across 18 specialized plugins, **300K+ npm downloads**, built for the AI/Agentic era. Writing for **1.5K+ followers** on [Dev.to](https://dev.to/ofri-peretz). Leading Snappy's U.S. engineering expansion. [IC5/M2±](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1)
+<p align="center">
+  <a href="https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Interlace-interlace.tools-b34e16?style=flat-square&labelColor=1a1a1a" alt="Interlace — interlace.tools" /></a>
+  <a href="https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Blog-ofriperetz.dev-0d7d52?style=flat-square&labelColor=1a1a1a" alt="Blog — ofriperetz.dev" /></a>
+  <a href="https://dev.to/ofri-peretz"><img src="https://img.shields.io/badge/Dev.to-80_articles-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Dev.to — 80 articles" /></a>
+</p>
+
+---
+
+Architect of the **Interlace ESLint Ecosystem** — 466 security & quality rules across 30 specialized plugins, **350K+ npm downloads**, built for the AI/Agentic era. Writing for **1.5K+ followers** on [Dev.to](https://dev.to/ofri-peretz). Leading Snappy's U.S. engineering expansion. [IC5/M2±](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1)
 
 Referenced in **700+ public repositories** on GitHub — [see the search](https://github.com/search?q=%28eslint-plugin-nestjs-security+OR+eslint-plugin-lambda-security+OR+eslint-plugin-express-security+OR+eslint-plugin-secure-coding+OR+eslint-plugin-import-next+OR+eslint-plugin-browser-security+OR+eslint-plugin-node-security+OR+eslint-plugin-mongodb-security+OR+eslint-plugin-pg+OR+eslint-plugin-jwt+OR+eslint-plugin-vercel-ai-security%29+AND+NOT+repo%3Aofri-peretz%2Fagents+AND+NOT+repo%3Aofri-peretz%2Feslint+AND+NOT+repo%3Aofri-peretz%2Finterlace+AND+NOT+repo%3Aofri-peretz%2Fserverless+AND+NOT+repo%3Aofri-peretz%2Fblog+AND+NOT+repo%3Aofri-peretz%2Fplayground+AND+NOT+repo%3Aofri-peretz%2Fofri-peretz+&type=code) *(code search, Jul 2026)*
 
@@ -16,13 +24,16 @@ Referenced in **700+ public repositories** on GitHub — [see the search](https:
 
 **[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** — a family of small, focused, TypeScript-native developer tools that **interlock**: same brand, same docs experience, same evidence contract. Independent, MIT-licensed, built in the open. No comparative claim ships without a versioned benchmark you can rerun.
 
-The ecosystems being built under it:
+### Where everything lives
 
-| Ecosystem | What it is | Explore |
-| --- | --- | --- |
-| **ESLint plugins** | Security, quality & React static analysis with LLM-optimized messages — built for both human devs and AI coding assistants | [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) |
-| **Serverless plugins** | TypeScript-first Serverless Framework tooling — caching, IAM, config devkit | [serverless.interlace.tools](https://serverless.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) |
-| **Design system** | The shared foundation every Interlace surface is built on — tokens, components, AA-verified themes | [ds.interlace.tools](https://ds.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) · [storybook.interlace.tools](https://storybook.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) |
+| Site | What it is |
+| --- | --- |
+| **[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | The umbrella — what Interlace stands for and what's being built under it |
+| **[eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Full rule reference & registry for all 30 ESLint plugins — searchable, per-rule docs, config presets |
+| **[serverless.interlace.tools](https://serverless.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | TypeScript-first Serverless Framework tooling — caching, per-function IAM, config devkit |
+| **[ds.interlace.tools](https://ds.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | The design system registry — tokens, components, AA-verified themes, installable via the shadcn CLI |
+| **[storybook.interlace.tools](https://storybook.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Every design-system component, live and interactive |
+| **[ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme)** | My blog — deep dives on ESLint security, benchmarks, and AI-native tooling |
 
 ## ⭐ Key Packages
 
@@ -37,23 +48,39 @@ The most-adopted plugins in the ESLint ecosystem (ranked by real npm downloads �
 | [`eslint-plugin-vercel-ai-security`](https://www.npmjs.com/package/eslint-plugin-vercel-ai-security) | Vercel AI SDK security for generateText, streamText, tools | ![npm](https://img.shields.io/npm/dm/eslint-plugin-vercel-ai-security) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-vercel-ai-security) |
 | [`eslint-plugin-react-a11y`](https://www.npmjs.com/package/eslint-plugin-react-a11y) | LLM-optimized rules for WCAG 2.1 compliance in React | ![npm](https://img.shields.io/npm/dm/eslint-plugin-react-a11y) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-react-a11y) |
 
-…plus **14 more focused plugins** — JWT, crypto, PostgreSQL, MongoDB, NestJS, Express, Lambda security, and the code-quality line (maintainability, reliability, modularity, operability, modernization, conventions) — with [`@interlace/eslint-devkit`](https://www.npmjs.com/package/@interlace/eslint-devkit) underneath. Full registry & rule reference: [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)
+…plus more focused plugins — JWT, crypto, PostgreSQL, MongoDB, NestJS, Express, Lambda security, and the code-quality line (maintainability, reliability, modularity, operability, modernization, conventions) — with [`@interlace/eslint-devkit`](https://www.npmjs.com/package/@interlace/eslint-devkit) underneath. Full registry & rule reference: [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)
 
 ## 📦 Serverless Plugins
 
-| Package                                                                                                          | Description                                                          | Monthly                                                                          | All-Time                                                                           |
-| ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| [`@interlace/serverless-devkit`](https://www.npmjs.com/package/@interlace/serverless-devkit)                     | TypeScript-first config toolkit for Serverless Framework              | ![npm](https://img.shields.io/npm/dm/@interlace/serverless-devkit)                | ![npm](https://img.shields.io/npm/dt/@interlace/serverless-devkit)                |
-| [`@interlace/serverless-api-gateway-caching`](https://www.npmjs.com/package/@interlace/serverless-api-gateway-caching) | API Gateway caching — cache clusters, flush commands, cleanup hooks    | ![npm](https://img.shields.io/npm/dm/@interlace/serverless-api-gateway-caching)   | ![npm](https://img.shields.io/npm/dt/@interlace/serverless-api-gateway-caching)   |
-| [`@interlace/serverless-iam-roles-per-function`](https://www.npmjs.com/package/@interlace/serverless-iam-roles-per-function) | Per-function IAM roles — strict validation, role consolidation, CLI   | ![npm](https://img.shields.io/npm/dm/@interlace/serverless-iam-roles-per-function) | ![npm](https://img.shields.io/npm/dt/@interlace/serverless-iam-roles-per-function) |
+| Package | Description | Monthly | All-Time |
+| --- | --- | --- | --- |
+| [`@interlace/serverless-devkit`](https://www.npmjs.com/package/@interlace/serverless-devkit) | TypeScript-first config toolkit for Serverless Framework | ![npm](https://img.shields.io/npm/dm/@interlace/serverless-devkit) | ![npm](https://img.shields.io/npm/dt/@interlace/serverless-devkit) |
+| [`@interlace/serverless-api-gateway-caching`](https://www.npmjs.com/package/@interlace/serverless-api-gateway-caching) | API Gateway caching — cache clusters, flush commands, cleanup hooks | ![npm](https://img.shields.io/npm/dm/@interlace/serverless-api-gateway-caching) | ![npm](https://img.shields.io/npm/dt/@interlace/serverless-api-gateway-caching) |
+| [`@interlace/serverless-iam-roles-per-function`](https://www.npmjs.com/package/@interlace/serverless-iam-roles-per-function) | Per-function IAM roles — strict validation, role consolidation, CLI | ![npm](https://img.shields.io/npm/dm/@interlace/serverless-iam-roles-per-function) | ![npm](https://img.shields.io/npm/dt/@interlace/serverless-iam-roles-per-function) |
+
+---
+
+## ✍️ Writing
+
+80 articles on what static analysis actually catches in AI-written code — every claim backed by a rerunnable measurement, never a vibe.
+
+Read them at **[ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme)** (the long-form home) or **[dev.to/ofri-peretz](https://dev.to/ofri-peretz)**.
+
+Start here:
+
+- [My credential rule reported 842 secrets in vercel/ai. The real count was 0.](https://dev.to/ofri-peretz/my-credential-rule-reported-842-secrets-in-vercelai-the-real-count-was-0-249p) — what a 100% false-positive rate taught me about writing security rules
+- [The 30-Minute Security Audit: 140 Gemini-Written Functions, 102 Shipped Findings](https://dev.to/ofri-peretz/the-30-minute-security-audit-onboarding-a-new-codebase-4f91) — onboarding a codebase you've never seen
+- [Claude vs Gemini Across 4 Security Domains: A Dead Heat](https://dev.to/ofri-peretz/claude-vs-gemini-across-4-security-domains-a-dead-heat-and-the-hardening-63-of-ai-code-skips-mpp) — and the hardening 63% of AI code skips
+- [Claude Wrote a NestJS Service. TypeScript Was Happy. ESLint Found 6 Security Holes.](https://dev.to/ofri-peretz/claude-wrote-a-nestjs-service-typescript-was-happy-eslint-found-6-security-holes-51nj) — where type safety stops and security starts
+- [Math.random() Is Not Secure. I Found It Generating API Keys in a 44K-Star Repo.](https://dev.to/ofri-peretz/mathrandom-is-not-random-enough-i-found-it-building-api-keys-in-a-57k-star-repo-2pl1) — the oldest bug that still ships
 
 ---
 
 ## 🤝 Let's Connect
 
-- **Blog**: [ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme) — deep dives on ESLint security, benchmarks, and AI-native tooling
+- **Blog**: [ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme)
 - **Interlace**: [interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)
 - **GitHub**: [@ofri-peretz](https://github.com/ofri-peretz)
 - **LinkedIn**: [Ofri Peretz](https://www.linkedin.com/in/ofri-peretz/)
-- **dev.to**: [ofri-peretz](https://dev.to/ofri-peretz)
+- **Dev.to**: [ofri-peretz](https://dev.to/ofri-peretz)
 - **X**: [ofri-peretz](https://x.com/ofriperetzdev)
