@@ -14,7 +14,7 @@
 
 ---
 
-Architect of the **Interlace ESLint Ecosystem** — 466 security & quality rules across 30 specialized plugins, **350K+ npm downloads**, built for the AI/Agentic era. Writing for **1.5K+ followers** on [Dev.to](https://dev.to/ofri-peretz). Leading Snappy's U.S. engineering expansion. [IC5/M2±](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1)
+Architect of the **Interlace ESLint Ecosystem** — 466 security & quality rules across 30 specialized plugins, **375K+ npm downloads**, built for the AI/Agentic era. Writing for **1.5K+ followers** on [Dev.to](https://dev.to/ofri-peretz). Leading Snappy's U.S. engineering expansion. [IC5/M2±](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1)
 
 Referenced in **700+ public repositories** on GitHub — [see the search](https://github.com/search?q=%28eslint-plugin-nestjs-security+OR+eslint-plugin-lambda-security+OR+eslint-plugin-express-security+OR+eslint-plugin-secure-coding+OR+eslint-plugin-import-next+OR+eslint-plugin-browser-security+OR+eslint-plugin-node-security+OR+eslint-plugin-mongodb-security+OR+eslint-plugin-pg+OR+eslint-plugin-jwt+OR+eslint-plugin-vercel-ai-security%29+AND+NOT+repo%3Aofri-peretz%2Fagents+AND+NOT+repo%3Aofri-peretz%2Feslint+AND+NOT+repo%3Aofri-peretz%2Finterlace+AND+NOT+repo%3Aofri-peretz%2Fserverless+AND+NOT+repo%3Aofri-peretz%2Fblog+AND+NOT+repo%3Aofri-peretz%2Fplayground+AND+NOT+repo%3Aofri-peretz%2Fofri-peretz+&type=code) *(code search, Jul 2026)*
 
