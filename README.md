@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Interlace-interlace.tools-b34e16?style=flat-square&labelColor=1a1a1a" alt="Interlace — interlace.tools" /></a>
   <a href="https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Blog-ofriperetz.dev-0d7d52?style=flat-square&labelColor=1a1a1a" alt="Blog — ofriperetz.dev" /></a>
-  <a href="https://dev.to/ofri-peretz"><img src="https://img.shields.io/badge/Dev.to-80_articles-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Dev.to — 80 articles" /></a>
+  <a href="https://dev.to/ofri-peretz"><img src="https://img.shields.io/badge/Dev.to-82_articles-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Dev.to — 82 articles" /></a>
 </p>
 
 ---
@@ -62,7 +62,7 @@ The most-adopted plugins in the ESLint ecosystem (ranked by real npm downloads �
 
 ## ✍️ Writing
 
-80 articles on what static analysis actually catches in AI-written code — every claim backed by a rerunnable measurement, never a vibe.
+82 articles on what static analysis actually catches in AI-written code — every claim backed by a rerunnable measurement, never a vibe.
 
 Read them at **[ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme)** (the long-form home) or **[dev.to/ofri-peretz](https://dev.to/ofri-peretz)**.
 
