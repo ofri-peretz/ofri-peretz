@@ -94,20 +94,28 @@ jobs:
             });
             if (!p.ok) return console.log(`dev.to profile fetch ${p.status} — skipping bio check`);
             const summary = (await p.json()).summary ?? "";
-            let bio = bump(summary, "npm downloads", dlToken);
-            bio = bump(bio, "followers", foToken);
+            // A bio with NO stat token is invisible to bump() — it would report
+            // "up to date" forever and the issue would never open. Treat that as
+            // dormant and propose an insert (once — see devto-quiet below).
+            const dormant = !/[\d.]+[KM]\+/.test(summary);
+            const bio = dormant
+              ? `${summary} ${dlToken} npm downloads.`
+              : bump(bump(summary, "npm downloads", dlToken), "followers", foToken);
             if (bio !== summary) {
+              if (dormant) fs.writeFileSync("devto-quiet", "");
               fs.writeFileSync(
                 "devto-drift.md",
                 [
-                  "The Dev.to bio's stat milestones are behind the ratchet.",
+                  dormant
+                    ? "The Dev.to bio has **no stat tokens**, so the ratchet cannot maintain it (`bump()` is a no-op on it). Add one — suggested wording, reword freely, just keep the token and its label contiguous:"
+                    : "The Dev.to bio's stat milestones are behind the ratchet.",
                   "Paste this at https://dev.to/settings/profile → Bio:",
                   "", "```", bio, "```", "",
                   `Ratchet evidence: ${downloads.toLocaleString()} downloads, ${followers.toLocaleString()} followers.`,
                 ].join("\n"),
               );
-              console.log("dev.to bio drift detected");
-            } else console.log("dev.to bio: no stat drift (no stat tokens, or up to date)");
+              console.log(dormant ? "dev.to bio dormant (no stat tokens)" : "dev.to bio drift detected");
+            } else console.log("dev.to bio: up to date");
           };
           main().catch((e) => { console.error(e); process.exit(1); });
           EOF
@@ -126,7 +134,9 @@ jobs:
           title="Dev.to bio stats stale"
           num=$(gh issue list --state open --search "\"$title\" in:title" --json number -q '.[0].number')
           if [ -n "$num" ]; then
-            gh issue comment "$num" --body-file devto-drift.md
+            # Dormant state is unchanging — comment only on real drift, else the
+            # issue collects an identical comment every single week.
+            [ -f devto-quiet ] || gh issue comment "$num" --body-file devto-drift.md
           else
             gh issue create --title "$title" --body-file devto-drift.md
           fi
