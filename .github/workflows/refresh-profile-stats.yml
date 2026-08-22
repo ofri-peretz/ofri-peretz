@@ -53,6 +53,12 @@ jobs:
             return m ? +m[1] * (m[2] === "K" ? 1e3 : 1e6) : 0;
           };
 
+          // Article count is exact, not a milestone — 82 is better evidence than
+          // "80+". Matches the badge URL (80_articles), its alt text and the prose;
+          // still ratchets UP only, so an unpublish never walks the claim back.
+          const bumpCount = (text, n) =>
+            text.replace(/(\d+)([_ ]articles)/g, (m, cur, tail) => (n > +cur ? `${n}${tail}` : m));
+
           // Swap the stat token before `label` in `text`, only ratcheting UP.
           const bump = (text, label, token) => {
             const re = new RegExp(String.raw`([\d.]+[KM]\+)(\s*${label})`);
@@ -64,7 +70,7 @@ jobs:
           const main = async () => {
             const r = await fetch(
               `${process.env.SUPABASE_URL}/rest/v1/v_storefront_ratchet` +
-                `?kind=in.(eng_downloads_cumulative,eng_devto_followers)&select=kind,current_value`,
+                `?kind=in.(eng_downloads_cumulative,eng_devto_followers,contrib_articles_authored)&select=kind,current_value`,
               { headers: { apikey: process.env.SUPABASE_ANON_KEY } },
             );
             if (!r.ok) throw new Error(`ratchet fetch ${r.status}`);
@@ -72,17 +78,19 @@ jobs:
             const val = (k) => rows.find((x) => x.kind === k)?.current_value;
             const downloads = val("eng_downloads_cumulative");
             const followers = val("eng_devto_followers");
+            const articles = val("contrib_articles_authored");
             // Fail loudly on missing/implausible data — silent skips go stale.
-            if (!downloads || !followers) throw new Error(`missing ratchet rows: ${JSON.stringify(rows)}`);
+            if (!downloads || !followers || !articles) throw new Error(`missing ratchet rows: ${JSON.stringify(rows)}`);
             if (downloads < 100_000 || followers < 500) throw new Error("implausibly low values — refusing to edit");
             const dlToken = fmtDl(downloads);
             const foToken = fmtFo(followers);
-            console.log(`ratchet: downloads=${downloads} (${dlToken}) followers=${followers} (${foToken})`);
+            console.log(`ratchet: downloads=${downloads} (${dlToken}) followers=${followers} (${foToken}) articles=${articles}`);
 
             // 1. GitHub README hero line
             const readme = fs.readFileSync("README.md", "utf8");
             let next = bump(readme, "npm downloads", dlToken);
             next = bump(next, "followers", foToken);
+            next = bumpCount(next, articles);
             if (next !== readme) {
               fs.writeFileSync("README.md", next);
               console.log("README milestones updated");
