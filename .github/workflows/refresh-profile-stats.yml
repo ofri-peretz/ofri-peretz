@@ -19,7 +19,11 @@ name: Refresh profile stats
 
 on:
   schedule:
-    - cron: "0 6 * * 1" # Mondays 06:00 UTC, an hour after daily-impact-ingest
+    # Daily, late enough to clear daily-impact-ingest even when GitHub delays
+    # its 05:00 cron by hours (observed 05:30 -> 17:13 drift, 2026-08-27..30).
+    # Weekly meant a crossing could sit unpublished for up to 7 days; the
+    # commit step is a no-op when no milestone moved, so extra runs are silent.
+    - cron: "0 20 * * *" # 20:00 UTC daily
   workflow_dispatch:
 
 permissions:
