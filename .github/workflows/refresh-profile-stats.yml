@@ -44,18 +44,35 @@ jobs:
           node - <<'EOF'
           const fs = require("fs");
 
-          // Milestone formatters: downloads floor to 25K steps below 1M (375K+),
-          // 100K steps above it (1.1M+ — 1.05M+ reads as an odometer, not a milestone);
-          // followers floor to 500 steps (1.5K+, 2K+, …). parse() inverts them.
+          // Milestone formatters: downloads floor to 25K steps below 0.5M (475K+),
+          // then 0.25M steps in M-form (0.5M+, 0.75M+, 1M+, 1.25M+) — past half a
+          // million, quarter-million jumps read as milestones where 25K steps read
+          // as an odometer. Quarters are exact in binary FP, so the division needs
+          // no toFixed. Followers floor to 500 steps (1.5K+, 2K+, …).
+          // parse() inverts both.
           const trim = (x) => String(x).replace(/\.0$/, "");
           const fmtDl = (n) =>
-            n >= 1e6 ? `${trim((Math.floor(n / 1e5) / 10).toFixed(1))}M+`
+            n >= 5e5 ? `${Math.floor(n / 2.5e5) / 4}M+`
                      : `${Math.floor(n / 2.5e4) * 25}K+`;
           const fmtFo = (n) => `${trim(((Math.floor(n / 500) * 500) / 1e3).toFixed(1))}K+`;
           const parse = (s) => {
             const m = /^([\d.]+)([KM])\+$/.exec(s);
             return m ? +m[1] * (m[2] === "K" ? 1e3 : 1e6) : 0;
           };
+
+          // Self-check — the formatters are all that stands between the ratchet and
+          // a public claim, so the step boundaries are asserted on every run.
+          for (const [n, want] of [[496247, "475K+"], [499999, "475K+"], [500000, "0.5M+"],
+                                   [749999, "0.5M+"], [750000, "0.75M+"], [1e6, "1M+"],
+                                   [1250000, "1.25M+"], [2e6, "2M+"]])
+            if (fmtDl(n) !== want) throw new Error(`fmtDl(${n}) = ${fmtDl(n)}, want ${want}`);
+          for (const [n, want] of [[2012, "2K+"], [2499, "2K+"], [2500, "2.5K+"]])
+            if (fmtFo(n) !== want) throw new Error(`fmtFo(${n}) = ${fmtFo(n)}, want ${want}`);
+          // Round-trip: a token that parses ABOVE its own evidence would claim more
+          // than the ratchet proves, and would freeze bump() at the inflated value.
+          for (const n of [496247, 500000, 750000, 1e6, 1250000, 2012, 2500])
+            for (const t of [fmtDl(n), fmtFo(n)])
+              if (parse(t) > n) throw new Error(`${t} overstates ${n}`);
 
           // Article count is exact, not a milestone — 82 is better evidence than
           // "80+". Matches the badge URL (80_articles), its alt text and the prose;
