@@ -50,6 +50,24 @@ The most-adopted plugins in the ESLint ecosystem (ranked by real npm downloads �
 
 …plus more focused plugins — JWT, crypto, PostgreSQL, MongoDB, NestJS, Express, Lambda security, and the code-quality line (maintainability, reliability, modularity, operability, modernization, conventions) — with [`@interlace/eslint-devkit`](https://www.npmjs.com/package/@interlace/eslint-devkit) underneath. Full registry & rule reference: [eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)
 
+## 🚩 burgee — the agent-native CLI family
+
+One family for building CLIs that people, pipes and AI agents can all drive — every package zero-dependency outside the family, compatibility graded by the incumbents' own test suites:
+
+| Package | Description | Monthly | All-Time |
+| --- | --- | --- | --- |
+| [`burgee`](https://www.npmjs.com/package/burgee) | CLI framework on one declaration — help, `--json`, `--schema`, MCP and completions projected from it; drop-in for commander and yargs | ![npm](https://img.shields.io/npm/dm/burgee) | ![npm](https://img.shields.io/npm/dt/burgee) |
+| [`bellpull`](https://www.npmjs.com/package/bellpull) | Subprocesses with executable resolution and one structured result; drop-in paths for execa, cross-spawn and which | ![npm](https://img.shields.io/npm/dm/bellpull) | ![npm](https://img.shields.io/npm/dt/bellpull) |
+| [`caique`](https://www.npmjs.com/package/caique) | Prompts that are flags first — non-TTY callers get an error naming the flag, never a hang; drop-in path for inquirer and clack | ![npm](https://img.shields.io/npm/dm/caique) | ![npm](https://img.shields.io/npm/dt/caique) |
+| [`closeout`](https://www.npmjs.com/package/closeout) | Exit handlers that run exactly once on every path, with a shutdown deadline; drop-in paths for signal-exit and exit-hook | ![npm](https://img.shields.io/npm/dm/closeout) | ![npm](https://img.shields.io/npm/dt/closeout) |
+| [`flagstaff`](https://www.npmjs.com/package/flagstaff) | Spinners, progress, boxes and tables on one frame loop, with a static projection for pipes and agents | ![npm](https://img.shields.io/npm/dm/flagstaff) | ![npm](https://img.shields.io/npm/dt/flagstaff) |
+| [`linegauge`](https://www.npmjs.com/package/linegauge) | Grapheme-correct width, wrap, truncate and slice for styled terminal text; drop-in paths for string-width and wrap-ansi | ![npm](https://img.shields.io/npm/dm/linegauge) | ![npm](https://img.shields.io/npm/dt/linegauge) |
+| [`paratext`](https://www.npmjs.com/package/paratext) | Hyperlinks, images, window title, clipboard and notifications, each with a static fallback | ![npm](https://img.shields.io/npm/dm/paratext) | ![npm](https://img.shields.io/npm/dt/paratext) |
+| [`roundel`](https://www.npmjs.com/package/roundel) | CLI colour: one output policy, semantic tokens and a contrast-checked theme; chalk migration path | ![npm](https://img.shields.io/npm/dm/roundel) | ![npm](https://img.shields.io/npm/dt/roundel) |
+| [`seniority`](https://www.npmjs.com/package/seniority) | Flags, env, config files and defaults resolved in one order, with provenance; drop-in paths for cosmiconfig, dotenv and rc | ![npm](https://img.shields.io/npm/dm/seniority) | ![npm](https://img.shields.io/npm/dt/seniority) |
+
+Docs: [burgee.interlace.tools](https://burgee.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme) · Source: [ofri-peretz/burgee](https://github.com/ofri-peretz/burgee)
+
 ## 📦 Serverless Plugins
 
 | Package | Description | Monthly | All-Time |
