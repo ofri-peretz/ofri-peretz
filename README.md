@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Interlace-interlace.tools-b34e16?style=flat-square&labelColor=1a1a1a" alt="Interlace — interlace.tools" /></a>
   <a href="https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Blog-ofriperetz.dev-0d7d52?style=flat-square&labelColor=1a1a1a" alt="Blog — ofriperetz.dev" /></a>
-  <a href="https://dev.to/ofri-peretz"><img src="https://img.shields.io/badge/Dev.to-96_articles-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Dev.to — 96 articles" /></a>
+  <a href="https://dev.to/ofri-peretz"><img src="https://img.shields.io/badge/Dev.to-97_articles-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Dev.to — 97 articles" /></a>
 </p>
 
 ---
@@ -80,7 +80,7 @@ Docs: [burgee.interlace.tools](https://burgee.interlace.tools/?utm_source=github
 
 ## ✍️ Writing
 
-96 articles on what static analysis actually catches in AI-written code — every claim backed by a rerunnable measurement, never a vibe.
+97 articles on what static analysis actually catches in AI-written code — every claim backed by a rerunnable measurement, never a vibe.
 
 Read them at **[ofriperetz.dev](https://ofriperetz.dev?utm_source=github&utm_medium=profile&utm_campaign=readme)** (the long-form home) or **[dev.to/ofri-peretz](https://dev.to/ofri-peretz)**.
 
