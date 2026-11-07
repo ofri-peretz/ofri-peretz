@@ -4,7 +4,7 @@
 
 <h1 align="center">Ofri Peretz</h1>
 
-<p align="center"><strong>Building products that matter.</strong></p>
+<p align="center"><strong>Check what your coding agents ship.</strong></p>
 
 <p align="center">
   <a href="https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme"><img src="https://img.shields.io/badge/Interlace-interlace.tools-b34e16?style=flat-square&labelColor=1a1a1a" alt="Interlace — interlace.tools" /></a>
@@ -14,7 +14,7 @@
 
 ---
 
-Architect of the **Interlace ESLint Ecosystem** — 466 security & quality rules across 30 specialized plugins, **1M+ npm downloads**, built for the AI/Agentic era. Writing for **2.5K+ followers** on [Dev.to](https://dev.to/ofri-peretz). Leading Snappy's U.S. engineering expansion. [IC5/M2±](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1)
+Creator of **[Interlace](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)**: open-source tools that check what coding agents ship. Security lint (495 rules in 31 ESLint plugins), mutation testing and agent-ready CLIs. **1M+ npm downloads**. Writing for **2.5K+ followers** on [Dev.to](https://dev.to/ofri-peretz). Leading Snappy's U.S. engineering expansion. [IC5/M2±](https://mui-org.notion.site/Leveling-at-MUI-5c30f9bfe65149d697f346447cef9db1)
 
 Referenced in **700+ public repositories** on GitHub — [see the search](https://github.com/search?q=%28eslint-plugin-nestjs-security+OR+eslint-plugin-lambda-security+OR+eslint-plugin-express-security+OR+eslint-plugin-secure-coding+OR+eslint-plugin-import-next+OR+eslint-plugin-browser-security+OR+eslint-plugin-node-security+OR+eslint-plugin-mongodb-security+OR+eslint-plugin-pg+OR+eslint-plugin-jwt+OR+eslint-plugin-vercel-ai-security%29+AND+NOT+repo%3Aofri-peretz%2Fagents+AND+NOT+repo%3Aofri-peretz%2Feslint+AND+NOT+repo%3Aofri-peretz%2Finterlace+AND+NOT+repo%3Aofri-peretz%2Fserverless+AND+NOT+repo%3Aofri-peretz%2Fblog+AND+NOT+repo%3Aofri-peretz%2Fplayground+AND+NOT+repo%3Aofri-peretz%2Fofri-peretz+&type=code) *(code search, Jul 2026)*
 
@@ -22,14 +22,16 @@ Referenced in **700+ public repositories** on GitHub — [see the search](https:
 
 ## 🧵 What is Interlace?
 
-**[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** — a family of small, focused, TypeScript-native developer tools that **interlock**: same brand, same docs experience, same evidence contract. Independent, MIT-licensed, built in the open. No comparative claim ships without a versioned benchmark you can rerun.
+**[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** — open-source tools that check what your coding agents ship: security lint, mutation testing and agent-ready CLIs. Small, focused, TypeScript-native tools that **interlock**: same brand, same docs experience, same evidence contract. Independent, MIT-licensed, built in the open. No comparative claim ships without a versioned benchmark you can rerun.
 
 ### Where everything lives
 
 | Site | What it is |
 | --- | --- |
 | **[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | The umbrella — what Interlace stands for and what's being built under it |
-| **[eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Full rule reference & registry for all 30 ESLint plugins — searchable, per-rule docs, config presets |
+| **[eslint.interlace.tools](https://eslint.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Is the code safe? Rule reference for all 31 ESLint plugins — searchable, per-rule docs, config presets |
+| **[oxmutate.interlace.tools](https://oxmutate.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Do the tests check anything? Mutation testing that agrees with Stryker on 99.9% of mutants |
+| **[burgee.interlace.tools](https://burgee.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Can an agent drive the CLI? One declaration gives help, --json, --schema, MCP and completions |
 | **[serverless.interlace.tools](https://serverless.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | TypeScript-first Serverless Framework tooling — caching, per-function IAM, config devkit |
 | **[ds.interlace.tools](https://ds.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | The design system registry — tokens, components, AA-verified themes, installable via the shadcn CLI |
 | **[storybook.interlace.tools](https://storybook.interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** | Every design-system component, live and interactive |
