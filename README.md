@@ -20,6 +20,14 @@ Referenced in **700+ public repositories** on GitHub — [see the search](https:
 
 ---
 
+## Fixes I got merged elsewhere
+
+- [OWASP Cheat Sheet Series #2319](https://github.com/OWASP/CheatSheetSeries/pull/2319): the Node.js sheet no longer implies ESLint and JSHint are SAST tools by default
+- [NestJS docs #3772](https://github.com/nestjs/docs.nestjs.com/pull/3772): the MCP example rejects requests when the API key isn't configured
+- [expressjs.com #2465](https://github.com/expressjs/expressjs.com/pull/2465): the open-redirect example threw a `ReferenceError`
+- [DefinitelyTyped #74484](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/74484): types for Serverless Framework v4
+- [tolaria #1339](https://github.com/refactoringhq/tolaria/pull/1339): the Codacy ESLint scan crashed on async `try`/`finally`
+
 ## 🧵 What is Interlace?
 
 **[interlace.tools](https://interlace.tools/?utm_source=github&utm_medium=profile&utm_campaign=readme)** — open-source tools that check what your coding agents ship: security lint, mutation testing and agent-ready CLIs. Small, focused, TypeScript-native tools that **interlock**: same brand, same docs experience, same evidence contract. Independent, MIT-licensed, built in the open. No comparative claim ships without a versioned benchmark you can rerun.
@@ -43,8 +51,8 @@ The most-adopted plugins in the ESLint ecosystem (ranked by real npm downloads �
 
 | Package | Description | Monthly | All-Time |
 | --- | --- | --- | --- |
-| [`eslint-plugin-import-next`](https://www.npmjs.com/package/eslint-plugin-import-next) | 100x faster no-cycle detection, drop-in eslint-plugin-import replacement | ![npm](https://img.shields.io/npm/dm/eslint-plugin-import-next) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-import-next) |
-| [`eslint-plugin-secure-coding`](https://www.npmjs.com/package/eslint-plugin-secure-coding) | 89 AI-parseable rules, OWASP Top 10 2021 + Mobile 2024 coverage | ![npm](https://img.shields.io/npm/dm/eslint-plugin-secure-coding) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-secure-coding) |
+| [`eslint-plugin-import-next`](https://www.npmjs.com/package/eslint-plugin-import-next) | Passes 95% of eslint-plugin-import's own tests (2,033 of 2,135), ESLint 10 ready | ![npm](https://img.shields.io/npm/dm/eslint-plugin-import-next) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-import-next) |
+| [`eslint-plugin-secure-coding`](https://www.npmjs.com/package/eslint-plugin-secure-coding) | 35 rules mapped to CWE and OWASP Top 10, each with the fix | ![npm](https://img.shields.io/npm/dm/eslint-plugin-secure-coding) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-secure-coding) |
 | [`eslint-plugin-browser-security`](https://www.npmjs.com/package/eslint-plugin-browser-security) | XSS, postMessage abuse, storage token exposure, CSP | ![npm](https://img.shields.io/npm/dm/eslint-plugin-browser-security) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-browser-security) |
 | [`eslint-plugin-node-security`](https://www.npmjs.com/package/eslint-plugin-node-security) | Node.js built-ins security: command injection, path traversal, unsafe eval | ![npm](https://img.shields.io/npm/dm/eslint-plugin-node-security) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-node-security) |
 | [`eslint-plugin-vercel-ai-security`](https://www.npmjs.com/package/eslint-plugin-vercel-ai-security) | Vercel AI SDK security for generateText, streamText, tools | ![npm](https://img.shields.io/npm/dm/eslint-plugin-vercel-ai-security) | ![npm](https://img.shields.io/npm/dt/eslint-plugin-vercel-ai-security) |
